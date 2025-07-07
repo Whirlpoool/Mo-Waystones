@@ -16,7 +16,6 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import org.slf4j.Logger;
 import whirlpool.mo_waystones.client.ClientSetup;
-import whirlpool.mo_waystones.registry.ModBlockEntities;
 import whirlpool.mo_waystones.registry.ModBlocks;
 import whirlpool.mo_waystones.registry.ModItems;
 
@@ -42,7 +41,6 @@ public class Mo_waystones {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        ModBlockEntities.register(modEventBus);
 
         // Register the item to a creative tab
         //modEventBus.addListener(this::addCreative);
