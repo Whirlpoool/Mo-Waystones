@@ -16,7 +16,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Mo_waystones.MODID);
 
     public static final Supplier<CreativeModeTab> MO_WAYSTONES_TAB = CREATIVE_MODE_TAB.register("mo_waystones_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ICE_WAYSTONE))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.POLISHED_CALCITE_WAYSTONE))
                     .title(Component.translatable("creativetab.mo_waystones.mo_waystones_tab"))
                     .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.ICE_WAYSTONE);
