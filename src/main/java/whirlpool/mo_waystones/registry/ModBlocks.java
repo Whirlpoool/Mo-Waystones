@@ -21,6 +21,9 @@ public class ModBlocks {
             () -> new WaystoneBlock(BlockBehaviour.Properties.of()
                     .strength(5f, 2000f).sound(SoundType.GLASS)));
 
+    public static final DeferredBlock<Block> CALCITE_WAYSTONE = registerBlock("calcite_waystone",
+            () -> new WaystoneBlock(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.CALCITE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

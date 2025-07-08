@@ -24,6 +24,7 @@ public abstract class ModBlockEntitiesMixin {
         ArrayList<Block> newBlocks = new ArrayList<>(Arrays.asList(originalBlocks));
 
         newBlocks.add(ModBlocks.ICE_WAYSTONE.get());
+        newBlocks.add(ModBlocks.CALCITE_WAYSTONE.get());
 
         cir.setReturnValue(newBlocks.toArray(new Block[0]));
     }
