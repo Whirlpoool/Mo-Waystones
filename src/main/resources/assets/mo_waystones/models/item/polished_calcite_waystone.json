@@ -1,0 +1,7 @@
+{
+  "parent": "waystones:item/waystone",
+  "textures": {
+    "particle": "minecraft:block/calcite",
+    "texture": "mo_waystones:block/polished_calcite_waystone"
+  }
+}

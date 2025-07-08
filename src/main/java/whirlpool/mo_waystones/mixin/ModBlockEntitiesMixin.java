@@ -25,6 +25,8 @@ public abstract class ModBlockEntitiesMixin {
 
         newBlocks.add(ModBlocks.ICE_WAYSTONE.get());
         newBlocks.add(ModBlocks.CALCITE_WAYSTONE.get());
+        newBlocks.add(ModBlocks.POLISHED_CALCITE_WAYSTONE.get());
+        newBlocks.add(ModBlocks.SEA_STONE_WAYSTONE.get());
 
         cir.setReturnValue(newBlocks.toArray(new Block[0]));
     }

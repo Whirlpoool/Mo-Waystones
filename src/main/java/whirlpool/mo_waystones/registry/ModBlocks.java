@@ -17,13 +17,26 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(Mo_waystones.MODID);
 
-    public static final DeferredBlock<Block> ICE_WAYSTONE = registerBlock("ice_waystone",
-            () -> new WaystoneBlock(BlockBehaviour.Properties.of()
-                    .strength(5f, 2000f).sound(SoundType.GLASS)));
 
-    public static final DeferredBlock<Block> CALCITE_WAYSTONE = registerBlock("calcite_waystone",
+
+    public static final DeferredBlock<WaystoneBlock> ICE_WAYSTONE = registerBlock("ice_waystone",
+            () -> new WaystoneBlock(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.GLASS).noOcclusion()));
+
+    public static final DeferredBlock<WaystoneBlock> CALCITE_WAYSTONE = registerBlock("calcite_waystone",
             () -> new WaystoneBlock(BlockBehaviour.Properties.of()
                     .strength(5f, 2000f).sound(SoundType.CALCITE)));
+
+    public static final DeferredBlock<WaystoneBlock> POLISHED_CALCITE_WAYSTONE = registerBlock("polished_calcite_waystone",
+            () -> new WaystoneBlock(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.CALCITE)));
+
+    public static final DeferredBlock<WaystoneBlock> SEA_STONE_WAYSTONE = registerBlock("sea_stone_waystone",
+            () -> new WaystoneBlock(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.STONE)));
+
+
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

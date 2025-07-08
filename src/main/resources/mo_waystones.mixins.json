@@ -4,7 +4,8 @@
   "package": "whirlpool.mo_waystones.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ModBlockEntitiesMixin"
+    "ModBlockEntitiesMixin",
+    "WaystoneRendererMixin"
   ],
   "client": [
   ],
