@@ -1,0 +1,13 @@
+{
+  "values": [
+    "mo_waystones:calcite_waystone",
+    "mo_waystones:ice_waystone",
+    "mo_waystones:polished_calcite_waystone",
+    "mo_waystones:tuff_waystone",
+    "mo_waystones:tuff_bricks_waystone",
+    "mo_waystones:mud_bricks_waystone",
+    "mo_waystones:nether_bricks_waystone",
+    "mo_waystones:sculk_waystone",
+    "mo_waystones:sea_stone_waystone"
+  ]
+}

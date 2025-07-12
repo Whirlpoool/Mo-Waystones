@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "mo_waystones:polished_calcite_waystone",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "mo_waystones:polished_calcite_waystone"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mo_waystones:blocks/polished_calcite_waystone"
+}

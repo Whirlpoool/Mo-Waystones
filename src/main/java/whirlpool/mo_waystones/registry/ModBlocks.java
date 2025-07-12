@@ -35,6 +35,25 @@ public class ModBlocks {
             () -> new WaystoneBlock(BlockBehaviour.Properties.of()
                     .strength(5f, 2000f).sound(SoundType.STONE)));
 
+    public static final DeferredBlock<WaystoneBlock> MUD_BRICKS_WAYSTONE = registerBlock("mud_bricks_waystone",
+            () -> new WaystoneBlock(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.MUD_BRICKS)));
+
+    public static final DeferredBlock<WaystoneBlock> NETHER_BRICKS_WAYSTONE = registerBlock("nether_bricks_waystone",
+                                                                              () -> new WaystoneBlock(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.NETHER_BRICKS)));
+
+    public static final DeferredBlock<WaystoneBlock> SCULK_WAYSTONE = registerBlock("sculk_waystone",
+                                                                              () -> new WaystoneBlock(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.SCULK)));
+
+    public static final DeferredBlock<WaystoneBlock> TUFF_BRICKS_WAYSTONE = registerBlock("tuff_bricks_waystone",
+                                                                              () -> new WaystoneBlock(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.TUFF)));
+
+    public static final DeferredBlock<WaystoneBlock> TUFF_WAYSTONE = registerBlock("tuff_waystone",
+                                                                              () -> new WaystoneBlock(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.TUFF)));
 
 
 

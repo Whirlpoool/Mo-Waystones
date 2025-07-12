@@ -1,0 +1,7 @@
+{
+  "parent": "mo_waystones:block/waystone_top",
+  "textures": {
+    "particle": "minecraft:block/mud_bricks",
+    "texture": "mo_waystones:block/mud_bricks_waystone"
+  }
+}

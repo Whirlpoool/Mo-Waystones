@@ -19,10 +19,17 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.POLISHED_CALCITE_WAYSTONE))
                     .title(Component.translatable("creativetab.mo_waystones.mo_waystones_tab"))
                     .displayItems(((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.SCULK_WAYSTONE);
                         output.accept(ModBlocks.ICE_WAYSTONE);
                         output.accept(ModBlocks.SEA_STONE_WAYSTONE);
+
                         output.accept(ModBlocks.CALCITE_WAYSTONE);
                         output.accept(ModBlocks.POLISHED_CALCITE_WAYSTONE);
+                        output.accept(ModBlocks.TUFF_WAYSTONE);
+                        output.accept(ModBlocks.TUFF_BRICKS_WAYSTONE);
+
+                        output.accept(ModBlocks.MUD_BRICKS_WAYSTONE);
+                        output.accept(ModBlocks.NETHER_BRICKS_WAYSTONE);
                     })).build());
 
 

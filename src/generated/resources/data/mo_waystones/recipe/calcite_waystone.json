@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:calcite"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BWB",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mo_waystones:calcite_waystone"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "I": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    }
+  },
+  "pattern": [
+    " I ",
+    "BWB",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mo_waystones:sea_stone_waystone"
+  }
+}
