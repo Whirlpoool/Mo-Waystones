@@ -15,6 +15,7 @@ import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import whirlpool.mo_waystones.Mo_waystones;
 import whirlpool.mo_waystones.registry.ModBlocks;
 
@@ -25,6 +26,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        blockWithItem(ModBlocks.DIVINE_BRICKS);
+
         registerWaystone(ModBlocks.ICE_WAYSTONE.get(),
                 ResourceLocation.withDefaultNamespace("block/ice")); // Particle texture
         registerWaystone(ModBlocks.CALCITE_WAYSTONE.get(),
@@ -43,6 +46,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 ResourceLocation.withDefaultNamespace("block/tuff"));
         registerWaystone(ModBlocks.SCULK_WAYSTONE.get(),
                 ResourceLocation.withDefaultNamespace("block/sculk"));
+        registerWaystone(ModBlocks.DIVINE_BRICKS_WAYSTONE.get(),
+                ResourceLocation.fromNamespaceAndPath(Mo_waystones.MODID, "block/divine_bricks"));
     }
 
     private void registerWaystone(Block block, ResourceLocation particleTexture) {
@@ -100,5 +105,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         itemModels().getBuilder(baseName)
                 .parent(waystoneItemParent)
                 .texture("texture", mainTexture);
+    }
+
+    private void blockWithItem(DeferredBlock<?> deferredBlock) {
+        simpleBlockWithItem(deferredBlock.get(), cubeAll(deferredBlock.get()));
     }
 }

@@ -18,6 +18,9 @@ public class ModBlocks {
             DeferredRegister.createBlocks(Mo_waystones.MODID);
 
 
+    public static final DeferredBlock<Block> DIVINE_BRICKS = registerBlock("divine_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.CALCITE).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<WaystoneBlock> ICE_WAYSTONE = registerBlock("ice_waystone",
             () -> new WaystoneBlock(BlockBehaviour.Properties.of()
@@ -54,6 +57,10 @@ public class ModBlocks {
     public static final DeferredBlock<WaystoneBlock> TUFF_WAYSTONE = registerBlock("tuff_waystone",
                                                                               () -> new WaystoneBlock(BlockBehaviour.Properties.of()
                     .strength(5f, 2000f).sound(SoundType.TUFF)));
+
+    public static final DeferredBlock<WaystoneBlock> DIVINE_BRICKS_WAYSTONE = registerBlock("divine_bricks_waystone",
+            () -> new WaystoneBlock(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.CALCITE)));
 
 
 

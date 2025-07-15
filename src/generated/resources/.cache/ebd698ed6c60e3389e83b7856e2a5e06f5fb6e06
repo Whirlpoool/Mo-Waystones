@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-11T20:41:16.5689039	Tags for minecraft:block mod id mo_waystones
-d3158c8a39b62225a49597d3aefe5da1b92d0ec4 data/minecraft/tags/block/mineable/pickaxe.json
-d3158c8a39b62225a49597d3aefe5da1b92d0ec4 data/waystones/tags/block/is_teleport_target.json
-d3158c8a39b62225a49597d3aefe5da1b92d0ec4 data/waystones/tags/block/waystones.json
+// 1.21.1	2025-07-15T14:32:44.2043002	Tags for minecraft:block mod id mo_waystones
+22bde5b7607e04e9d1e924d88164cf3e20945a9a data/minecraft/tags/block/mineable/pickaxe.json
+79b6107cd7f64e17193d1b0a0e82e9262703f52b data/waystones/tags/block/is_teleport_target.json
+79b6107cd7f64e17193d1b0a0e82e9262703f52b data/waystones/tags/block/waystones.json

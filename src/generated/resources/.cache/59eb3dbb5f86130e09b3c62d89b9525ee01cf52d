@@ -1,5 +1,7 @@
-// 1.21.1	2025-07-11T20:41:16.5708962	Loot Tables
+// 1.21.1	2025-07-15T14:32:44.205297	Loot Tables
 ac21ba0981eab9be342adc28112f693adeda5742 data/mo_waystones/loot_table/blocks/calcite_waystone.json
+24ad506093a989f044d3dda9825d1956dbce61d1 data/mo_waystones/loot_table/blocks/divine_bricks.json
+ef7541f161fe1384c677abee773e1c24a423e818 data/mo_waystones/loot_table/blocks/divine_bricks_waystone.json
 ecb42cbb17262793db158d625d1a22cc94882f59 data/mo_waystones/loot_table/blocks/ice_waystone.json
 f9f1414dee42ff3d8331edb8af0230e10a7765d8 data/mo_waystones/loot_table/blocks/mud_bricks_waystone.json
 efc2eedd231a4ef03adb4bb95ca1d5c8b58faf41 data/mo_waystones/loot_table/blocks/nether_bricks_waystone.json

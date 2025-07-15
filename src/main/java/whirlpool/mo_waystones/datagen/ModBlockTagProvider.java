@@ -37,7 +37,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 ModBlocks.MUD_BRICKS_WAYSTONE.get(),
                 ModBlocks.NETHER_BRICKS_WAYSTONE.get(),
                 ModBlocks.SCULK_WAYSTONE.get(),
-                ModBlocks.SEA_STONE_WAYSTONE.get()
+                ModBlocks.SEA_STONE_WAYSTONE.get(),
+                ModBlocks.DIVINE_BRICKS_WAYSTONE.get()
         );
 
 
@@ -46,5 +47,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
             tag(waystonesBlockTag).add(block);
             tag(isTeleportTargetBlockTag).add(block);
         }
+
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.DIVINE_BRICKS.get());
     }
 }

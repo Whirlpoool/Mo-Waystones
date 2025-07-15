@@ -1,0 +1,7 @@
+{
+  "parent": "mo_waystones:block/waystone_bottom",
+  "textures": {
+    "particle": "mo_waystones:block/divine_bricks",
+    "texture": "mo_waystones:block/divine_bricks_waystone"
+  }
+}

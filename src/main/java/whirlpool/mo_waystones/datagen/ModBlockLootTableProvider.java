@@ -16,6 +16,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        dropSelf(ModBlocks.DIVINE_BRICKS.get());
+
         add(ModBlocks.CALCITE_WAYSTONE.get(),
                 block -> createDoorTable(ModBlocks.CALCITE_WAYSTONE.get()));
         add(ModBlocks.MUD_BRICKS_WAYSTONE.get(),
@@ -33,6 +35,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.POLISHED_CALCITE_WAYSTONE.get(),
                 block -> createDoorTable(ModBlocks.POLISHED_CALCITE_WAYSTONE.get()));
         add(ModBlocks.ICE_WAYSTONE.get(),
+                block -> createDoorTable(ModBlocks.ICE_WAYSTONE.get()));
+        add(ModBlocks.DIVINE_BRICKS_WAYSTONE.get(),
                 block -> createDoorTable(ModBlocks.ICE_WAYSTONE.get()));
     }
 

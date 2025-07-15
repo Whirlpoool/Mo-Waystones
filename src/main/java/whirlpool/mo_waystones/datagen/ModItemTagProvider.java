@@ -33,6 +33,7 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.SCULK_WAYSTONE.get().asItem())
                 .add(ModBlocks.SEA_STONE_WAYSTONE.get().asItem())
                 .add(ModBlocks.MUD_BRICKS_WAYSTONE.get().asItem())
-                .add(ModBlocks.NETHER_BRICKS_WAYSTONE.get().asItem());
+                .add(ModBlocks.NETHER_BRICKS_WAYSTONE.get().asItem())
+                .add(ModBlocks.DIVINE_BRICKS_WAYSTONE.get().asItem());
     }
 }

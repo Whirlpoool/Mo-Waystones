@@ -3,10 +3,7 @@ package whirlpool.mo_waystones.datagen;
 import net.blay09.mods.waystones.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeOutput;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
@@ -84,6 +81,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('O', Blocks.OBSIDIAN)
                 .unlockedBy("has_warp_stone", has(ModItems.warpStone)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIVINE_BRICKS_WAYSTONE.get())
+                .pattern(" B ")
+                .pattern("BWB")
+                .pattern("OOO")
+                .define('B', ModBlocks.DIVINE_BRICKS)
+                .define('W', ModItems.warpStone)
+                .define('O', Blocks.OBSIDIAN)
+                .unlockedBy("has_warp_stone", has(ModItems.warpStone)).save(recipeOutput);
+
 
 
 
@@ -108,5 +114,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('O', Blocks.OBSIDIAN)
                 .define('I', Items.PRISMARINE_CRYSTALS)
                 .unlockedBy("has_warp_stone", has(ModItems.warpStone)).save(recipeOutput);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.DIVINE_BRICKS.get())
+                .requires(Blocks.QUARTZ_BLOCK)
+                .requires(Items.PRISMARINE_CRYSTALS)
+                .unlockedBy("has_quartz_block", has(Blocks.QUARTZ_BLOCK)).save(recipeOutput);
     }
 }

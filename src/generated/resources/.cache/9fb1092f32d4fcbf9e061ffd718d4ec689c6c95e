@@ -1,5 +1,7 @@
-// 1.21.1	2025-07-11T20:41:16.5718942	Recipes
+// 1.21.1	2025-07-15T19:53:28.9911397	Recipes
 b1e8fcd3212d0a551dbf3caf27203e75216568e1 data/mo_waystones/advancement/recipes/misc/calcite_waystone.json
+2db7ba12399b89df0268b6328b202efc17679e6a data/mo_waystones/advancement/recipes/misc/divine_bricks.json
+3fffd5b15b754c0f3a2480d468d6f17881018247 data/mo_waystones/advancement/recipes/misc/divine_bricks_waystone.json
 1123a3941b03eda686aebf4810c98c2ef6361462 data/mo_waystones/advancement/recipes/misc/ice_waystone.json
 8058d97d477fe75e16f8bb426a33dfc828015874 data/mo_waystones/advancement/recipes/misc/mud_bricks_waystone.json
 dd41886518ee7a85f1d86cacfeefa5c41e384883 data/mo_waystones/advancement/recipes/misc/nether_bricks_waystone.json
@@ -9,6 +11,8 @@ bd51114e1e4dc3a7145efe61be342804633e060e data/mo_waystones/advancement/recipes/m
 68159563a3c188525872fe82238e2345073bf307 data/mo_waystones/advancement/recipes/misc/tuff_bricks_waystone.json
 fac3f8a371092b272dc1e1a93aae1e00a139f24b data/mo_waystones/advancement/recipes/misc/tuff_waystone.json
 6b60da5be671427cb1f3f562ba64019bf0b809c0 data/mo_waystones/recipe/calcite_waystone.json
+cd92d5f6894f117bce28299530268f23f3587b68 data/mo_waystones/recipe/divine_bricks.json
+62917a36116d7c36c3583c90606c10986a11e645 data/mo_waystones/recipe/divine_bricks_waystone.json
 50a88d492b3a623b9ae15ae9c79036aa0dc0062d data/mo_waystones/recipe/ice_waystone.json
 218880bfa61e8282b7b1a7e43ef5b56e5fec90f7 data/mo_waystones/recipe/mud_bricks_waystone.json
 03550f15f1dab67c2cd2f44b9002c53876085409 data/mo_waystones/recipe/nether_bricks_waystone.json
