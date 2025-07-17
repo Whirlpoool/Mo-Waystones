@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_quartz_block": {
+    "has_stable_divine_stone": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:quartz_block"
+            "items": "mo_waystones:stable_divine_stone"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "mo_waystones:divine_bricks"
+        "recipe": "mo_waystones:crafting_divine_bricks"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_quartz_block"
+      "has_stable_divine_stone"
     ]
   ],
   "rewards": {
     "recipes": [
-      "mo_waystones:divine_bricks"
+      "mo_waystones:crafting_divine_bricks"
     ]
   }
 }

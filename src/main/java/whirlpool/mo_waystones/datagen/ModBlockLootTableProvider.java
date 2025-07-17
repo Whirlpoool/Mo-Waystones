@@ -17,6 +17,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(ModBlocks.DIVINE_BRICKS.get());
+        dropSelf(ModBlocks.RUNIC_DIVINE_BRICKS.get());
+        dropSelf(ModBlocks.STABLE_DIVINE_STONE.get());
+        dropSelf(ModBlocks.UNSTABLE_DIVINE_STONE.get());
 
         add(ModBlocks.CALCITE_WAYSTONE.get(),
                 block -> createDoorTable(ModBlocks.CALCITE_WAYSTONE.get()));

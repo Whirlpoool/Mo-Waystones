@@ -49,5 +49,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         }
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.DIVINE_BRICKS.get());
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.RUNIC_DIVINE_BRICKS.get());
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.STABLE_DIVINE_STONE.get());
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.UNSTABLE_DIVINE_STONE.get());
     }
 }

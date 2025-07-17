@@ -27,6 +27,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.DIVINE_BRICKS);
+        blockWithItem(ModBlocks.RUNIC_DIVINE_BRICKS);
+        blockWithItem(ModBlocks.STABLE_DIVINE_STONE);
+        blockWithItem(ModBlocks.UNSTABLE_DIVINE_STONE);
 
         registerWaystone(ModBlocks.ICE_WAYSTONE.get(),
                 ResourceLocation.withDefaultNamespace("block/ice")); // Particle texture

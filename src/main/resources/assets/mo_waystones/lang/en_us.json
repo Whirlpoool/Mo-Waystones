@@ -12,5 +12,8 @@
   "block.mo_waystones.tuff_bricks_waystone": "Tuff Bricks Waystone",
   "block.mo_waystones.tuff_waystone": "Tuff Waystone",
   "block.mo_waystones.divine_bricks_waystone": "Divine Bricks Waystone",
-  "block.mo_waystones.divine_bricks": "Divine Bricks"
+  "block.mo_waystones.divine_bricks": "Divine Bricks",
+  "block.mo_waystones.runic_divine_bricks": "Runic Divine Bricks",
+  "block.mo_waystones.stable_divine_stone": "Stable Divine Stone",
+  "block.mo_waystones.unstable_divine_stone": "Unstable Divine Stone"
 }

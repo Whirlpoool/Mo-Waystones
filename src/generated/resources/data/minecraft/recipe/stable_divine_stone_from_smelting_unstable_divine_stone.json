@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "divine_stone",
+  "ingredient": {
+    "item": "mo_waystones:unstable_divine_stone"
+  },
+  "result": {
+    "count": 1,
+    "id": "mo_waystones:stable_divine_stone"
+  }
+}

@@ -10,6 +10,9 @@
     "mo_waystones:sculk_waystone",
     "mo_waystones:sea_stone_waystone",
     "mo_waystones:divine_bricks_waystone",
-    "mo_waystones:divine_bricks"
+    "mo_waystones:divine_bricks",
+    "mo_waystones:runic_divine_bricks",
+    "mo_waystones:stable_divine_stone",
+    "mo_waystones:unstable_divine_stone"
   ]
 }

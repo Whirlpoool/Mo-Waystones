@@ -21,6 +21,18 @@ public class ModBlocks {
     public static final DeferredBlock<Block> DIVINE_BRICKS = registerBlock("divine_bricks",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(5f, 2000f).sound(SoundType.CALCITE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> RUNIC_DIVINE_BRICKS = registerBlock("runic_divine_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.CALCITE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> STABLE_DIVINE_STONE = registerBlock("stable_divine_stone",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.CALCITE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> UNSTABLE_DIVINE_STONE = registerBlock("unstable_divine_stone",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.CALCITE).requiresCorrectToolForDrops()));
+
+
+
 
     public static final DeferredBlock<WaystoneBlock> ICE_WAYSTONE = registerBlock("ice_waystone",
             () -> new WaystoneBlock(BlockBehaviour.Properties.of()

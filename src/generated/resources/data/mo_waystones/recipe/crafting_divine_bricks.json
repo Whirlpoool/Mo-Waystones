@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mo_waystones:stable_divine_stone"
+    },
+    {
+      "item": "mo_waystones:stable_divine_stone"
+    },
+    {
+      "item": "mo_waystones:stable_divine_stone"
+    },
+    {
+      "item": "mo_waystones:stable_divine_stone"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "mo_waystones:divine_bricks"
+  }
+}

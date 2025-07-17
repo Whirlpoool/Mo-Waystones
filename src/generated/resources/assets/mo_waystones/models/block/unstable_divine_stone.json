@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mo_waystones:block/unstable_divine_stone"
+  }
+}

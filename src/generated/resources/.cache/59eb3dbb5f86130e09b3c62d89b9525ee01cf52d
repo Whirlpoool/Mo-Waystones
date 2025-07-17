@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-15T14:32:44.205297	Loot Tables
+// 1.21.1	2025-07-16T20:55:48.7845187	Loot Tables
 ac21ba0981eab9be342adc28112f693adeda5742 data/mo_waystones/loot_table/blocks/calcite_waystone.json
 24ad506093a989f044d3dda9825d1956dbce61d1 data/mo_waystones/loot_table/blocks/divine_bricks.json
 ef7541f161fe1384c677abee773e1c24a423e818 data/mo_waystones/loot_table/blocks/divine_bricks_waystone.json
@@ -6,7 +6,10 @@ ecb42cbb17262793db158d625d1a22cc94882f59 data/mo_waystones/loot_table/blocks/ice
 f9f1414dee42ff3d8331edb8af0230e10a7765d8 data/mo_waystones/loot_table/blocks/mud_bricks_waystone.json
 efc2eedd231a4ef03adb4bb95ca1d5c8b58faf41 data/mo_waystones/loot_table/blocks/nether_bricks_waystone.json
 8a6664255fc859e99770f40c46f1b5e98073a4f8 data/mo_waystones/loot_table/blocks/polished_calcite_waystone.json
+a343b6c083878d77885dd1908c27b13bedcb39f9 data/mo_waystones/loot_table/blocks/runic_divine_bricks.json
 81297d9fdddfadb11cd3a8724a99ce208aa8bbcf data/mo_waystones/loot_table/blocks/sculk_waystone.json
 88cee563d7fac1fbb6ab395b0e9a775c2f94f059 data/mo_waystones/loot_table/blocks/sea_stone_waystone.json
+a1cdcad2bd287dd09a89f11180b9c5d88d7dd6a7 data/mo_waystones/loot_table/blocks/stable_divine_stone.json
 3be7dfc3109f4fdf6602ae9aea513dffc08ef61f data/mo_waystones/loot_table/blocks/tuff_bricks_waystone.json
 2dc523a4a258547dedb3e24e8f5a14b986759917 data/mo_waystones/loot_table/blocks/tuff_waystone.json
+4a0a1f37505a3047e7f5124d88e186c4a1755401 data/mo_waystones/loot_table/blocks/unstable_divine_stone.json

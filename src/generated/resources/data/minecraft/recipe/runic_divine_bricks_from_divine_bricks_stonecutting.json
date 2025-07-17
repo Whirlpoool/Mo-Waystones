@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "mo_waystones:divine_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "mo_waystones:runic_divine_bricks"
+  }
+}

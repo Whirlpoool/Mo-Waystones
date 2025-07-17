@@ -35,6 +35,9 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.DIVINE_BRICKS_WAYSTONE);
                         output.accept(ModBlocks.DIVINE_BRICKS);
+                        output.accept(ModBlocks.RUNIC_DIVINE_BRICKS);
+                        output.accept(ModBlocks.STABLE_DIVINE_STONE);
+                        output.accept(ModBlocks.UNSTABLE_DIVINE_STONE);
                     })).build());
 
 

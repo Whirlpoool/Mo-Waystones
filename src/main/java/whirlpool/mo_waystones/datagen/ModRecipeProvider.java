@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import whirlpool.mo_waystones.registry.ModBlocks;
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
@@ -116,9 +117,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_warp_stone", has(ModItems.warpStone)).save(recipeOutput);
 
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.DIVINE_BRICKS.get())
-                .requires(Blocks.QUARTZ_BLOCK)
-                .requires(Items.PRISMARINE_CRYSTALS)
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.UNSTABLE_DIVINE_STONE.get(), 4)
+                .pattern("OW")
+                .pattern("OO")
+                .define('W', Items.PRISMARINE_CRYSTALS)
+                .define('O', Blocks.QUARTZ_BLOCK)
                 .unlockedBy("has_quartz_block", has(Blocks.QUARTZ_BLOCK)).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.DIVINE_BRICKS.get(), 4)
+                .requires(ModBlocks.STABLE_DIVINE_STONE)
+                .requires(ModBlocks.STABLE_DIVINE_STONE)
+                .requires(ModBlocks.STABLE_DIVINE_STONE)
+                .requires(ModBlocks.STABLE_DIVINE_STONE)
+                .unlockedBy("has_stable_divine_stone", has(ModBlocks.STABLE_DIVINE_STONE)).save(recipeOutput,
+                        "mo_waystones:crafting_divine_bricks");
+
+        stonecutterResultFromBase(recipeOutput, RecipeCategory.MISC, ModBlocks.RUNIC_DIVINE_BRICKS, ModBlocks.DIVINE_BRICKS);
+
+        oreSmelting(recipeOutput, List.of(ModBlocks.UNSTABLE_DIVINE_STONE), RecipeCategory.MISC, ModBlocks.STABLE_DIVINE_STONE, 0.25f, 200, "divine_stone");
+
     }
 }
