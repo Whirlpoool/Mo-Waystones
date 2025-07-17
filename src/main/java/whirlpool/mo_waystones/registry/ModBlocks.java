@@ -74,6 +74,10 @@ public class ModBlocks {
             () -> new WaystoneBlock(BlockBehaviour.Properties.of()
                     .strength(5f, 2000f).sound(SoundType.CALCITE)));
 
+    public static final DeferredBlock<WaystoneBlock> DIVINE_WAYSTONE = registerBlock("divine_waystone",
+            () -> new WaystoneBlock(BlockBehaviour.Properties.of()
+                    .strength(5f, 2000f).sound(SoundType.CALCITE)));
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

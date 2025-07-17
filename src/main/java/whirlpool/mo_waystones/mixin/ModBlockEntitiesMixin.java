@@ -33,6 +33,7 @@ public abstract class ModBlockEntitiesMixin {
         newBlocks.add(ModBlocks.NETHER_BRICKS_WAYSTONE.get());
         newBlocks.add(ModBlocks.MUD_BRICKS_WAYSTONE.get());
         newBlocks.add(ModBlocks.DIVINE_BRICKS_WAYSTONE.get());
+        newBlocks.add(ModBlocks.DIVINE_WAYSTONE.get());
 
         cir.setReturnValue(newBlocks.toArray(new Block[0]));
     }

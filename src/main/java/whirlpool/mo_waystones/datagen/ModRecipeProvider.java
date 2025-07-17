@@ -91,6 +91,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('O', Blocks.OBSIDIAN)
                 .unlockedBy("has_warp_stone", has(ModItems.warpStone)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DIVINE_WAYSTONE.get())
+                .pattern(" B ")
+                .pattern("BWB")
+                .pattern("OOO")
+                .define('B', ModBlocks.STABLE_DIVINE_STONE)
+                .define('W', ModItems.warpStone)
+                .define('O', Blocks.OBSIDIAN)
+                .unlockedBy("has_warp_stone", has(ModItems.warpStone)).save(recipeOutput);
+
 
 
 

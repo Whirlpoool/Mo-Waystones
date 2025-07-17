@@ -40,7 +40,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.ICE_WAYSTONE.get(),
                 block -> createDoorTable(ModBlocks.ICE_WAYSTONE.get()));
         add(ModBlocks.DIVINE_BRICKS_WAYSTONE.get(),
-                block -> createDoorTable(ModBlocks.ICE_WAYSTONE.get()));
+                block -> createDoorTable(ModBlocks.DIVINE_BRICKS_WAYSTONE.get()));
+        add(ModBlocks.DIVINE_WAYSTONE.get(),
+                block -> createDoorTable(ModBlocks.DIVINE_WAYSTONE.get()));
     }
 
     @Override

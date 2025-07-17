@@ -51,6 +51,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 ResourceLocation.withDefaultNamespace("block/sculk"));
         registerWaystone(ModBlocks.DIVINE_BRICKS_WAYSTONE.get(),
                 ResourceLocation.fromNamespaceAndPath(Mo_waystones.MODID, "block/divine_bricks"));
+        registerWaystone(ModBlocks.DIVINE_WAYSTONE.get(),
+                ResourceLocation.fromNamespaceAndPath(Mo_waystones.MODID, "block/stable_divine_stone"));
     }
 
     private void registerWaystone(Block block, ResourceLocation particleTexture) {

@@ -32,7 +32,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.NETHER_BRICKS_WAYSTONE);
 
 
-
+                        output.accept(ModBlocks.DIVINE_WAYSTONE);
                         output.accept(ModBlocks.DIVINE_BRICKS_WAYSTONE);
                         output.accept(ModBlocks.DIVINE_BRICKS);
                         output.accept(ModBlocks.RUNIC_DIVINE_BRICKS);

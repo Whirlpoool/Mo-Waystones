@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "mo_waystones:divine_bricks_waystone",
+              "block": "mo_waystones:divine_waystone",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "mo_waystones:divine_bricks_waystone"
+          "name": "mo_waystones:divine_waystone"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "mo_waystones:blocks/divine_bricks_waystone"
+  "random_sequence": "mo_waystones:blocks/divine_waystone"
 }

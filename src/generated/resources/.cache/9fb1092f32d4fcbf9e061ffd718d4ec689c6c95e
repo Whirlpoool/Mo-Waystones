@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-16T20:55:48.7855146	Recipes
+// 1.21.1	2025-07-17T19:27:39.3719738	Recipes
 3d0eaf74e13aa5c502eff747e6a43cb8843a1dfc data/minecraft/advancement/recipes/misc/runic_divine_bricks_from_divine_bricks_stonecutting.json
 9b2cb28b2d8a01b71427d5359789fb4ec624bee8 data/minecraft/advancement/recipes/misc/stable_divine_stone_from_smelting_unstable_divine_stone.json
 c795c607ea001db46d74d21dbf0f663c1bc9adb3 data/minecraft/recipe/runic_divine_bricks_from_divine_bricks_stonecutting.json
@@ -6,6 +6,7 @@ ea720379096184477e08ff05de5e70e228c41c3d data/minecraft/recipe/stable_divine_sto
 b1e8fcd3212d0a551dbf3caf27203e75216568e1 data/mo_waystones/advancement/recipes/misc/calcite_waystone.json
 6ba3fb6cc949d0f58bdae283b17699c6aa5eb1ba data/mo_waystones/advancement/recipes/misc/crafting_divine_bricks.json
 3fffd5b15b754c0f3a2480d468d6f17881018247 data/mo_waystones/advancement/recipes/misc/divine_bricks_waystone.json
+ab5fb3a298e962c48204840b262b0e14bcd8a461 data/mo_waystones/advancement/recipes/misc/divine_waystone.json
 1123a3941b03eda686aebf4810c98c2ef6361462 data/mo_waystones/advancement/recipes/misc/ice_waystone.json
 8058d97d477fe75e16f8bb426a33dfc828015874 data/mo_waystones/advancement/recipes/misc/mud_bricks_waystone.json
 dd41886518ee7a85f1d86cacfeefa5c41e384883 data/mo_waystones/advancement/recipes/misc/nether_bricks_waystone.json
@@ -18,6 +19,7 @@ fac3f8a371092b272dc1e1a93aae1e00a139f24b data/mo_waystones/advancement/recipes/m
 6b60da5be671427cb1f3f562ba64019bf0b809c0 data/mo_waystones/recipe/calcite_waystone.json
 2a9b750818cc2031dfdba3bf10d18fd404505472 data/mo_waystones/recipe/crafting_divine_bricks.json
 62917a36116d7c36c3583c90606c10986a11e645 data/mo_waystones/recipe/divine_bricks_waystone.json
+938eaa6b8e9a21cc597da50f12169df1352c8abb data/mo_waystones/recipe/divine_waystone.json
 50a88d492b3a623b9ae15ae9c79036aa0dc0062d data/mo_waystones/recipe/ice_waystone.json
 218880bfa61e8282b7b1a7e43ef5b56e5fec90f7 data/mo_waystones/recipe/mud_bricks_waystone.json
 03550f15f1dab67c2cd2f44b9002c53876085409 data/mo_waystones/recipe/nether_bricks_waystone.json

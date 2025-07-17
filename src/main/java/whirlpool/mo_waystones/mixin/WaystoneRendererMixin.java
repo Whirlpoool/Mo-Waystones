@@ -49,7 +49,9 @@ public abstract class WaystoneRendererMixin {
         } else if (state.getBlock() == ModBlocks.SCULK_WAYSTONE.get()) {
             return 0xFF30CFFF;
         } else if (state.getBlock() == ModBlocks.DIVINE_BRICKS_WAYSTONE.get()) {
-            return 0x0030CFFF;
+            return 0xFF75CAFF;
+        } else if (state.getBlock() == ModBlocks.DIVINE_WAYSTONE.get()) {
+            return 0xFF0B81FF;
         }
 
         return originalColor;

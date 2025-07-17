@@ -9,6 +9,7 @@
     "mo_waystones:sea_stone_waystone",
     "mo_waystones:mud_bricks_waystone",
     "mo_waystones:nether_bricks_waystone",
-    "mo_waystones:divine_bricks_waystone"
+    "mo_waystones:divine_bricks_waystone",
+    "mo_waystones:divine_waystone"
   ]
 }

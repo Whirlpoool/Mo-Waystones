@@ -38,7 +38,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 ModBlocks.NETHER_BRICKS_WAYSTONE.get(),
                 ModBlocks.SCULK_WAYSTONE.get(),
                 ModBlocks.SEA_STONE_WAYSTONE.get(),
-                ModBlocks.DIVINE_BRICKS_WAYSTONE.get()
+                ModBlocks.DIVINE_BRICKS_WAYSTONE.get(),
+                ModBlocks.DIVINE_WAYSTONE.get()
         );
 
 
